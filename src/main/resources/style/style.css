@@ -1,0 +1,136 @@
+/* REVERSIDE 
+ * -------------*/
+
+/* Spacing */
+.tiny-spacing { -fx-spacing: 5px; }
+.small-spacing { -fx-spacing: 10px; }
+.medium-spacing { -fx-spacing: 15px; }
+.large-spacing { -fx-spacing: 20px; }
+.huge-spacing { -fx-spacing: 40px; }
+
+/* padding */
+.large-padding { -fx-padding: 20px; }
+
+
+.main {
+	-fx-background-color: #1B2127;
+	-fx-background-radius: 15px;
+}
+
+.header {
+	-fx-background-color: #161C21;
+	-fx-background-radius: 15px 15px 0 0;
+	-fx-padding: 15px 30px 15px 30px;
+	-fx-border-color: #1B2127;
+	-fx-border-width: 0 0 1px 0;
+}
+
+.header .label {
+	-fx-text-fill: #f6f6f6;
+}
+
+.header .app-name {
+	-fx-font-weight: bold;
+}
+
+.header .item {
+	-fx-background-color: #252A30;
+	-fx-background-radius: 5px;
+	-fx-padding: 3px 8px;
+	-fx-font-size: 0.9em;
+	-fx-text-fill: #D1D2D3;
+}
+
+.header .image-view { -fx-opacity: 0.6; }
+
+.header .emphase { -fx-background-color: #EB4747; }
+
+.header .user {
+	-fx-background-color: #252A30;
+	-fx-background-radius: 100%;
+	-fx-min-width: 30px;
+	-fx-min-height: 30px;
+	-fx-alignment: center;
+	-fx-font-weight: bold;
+}
+
+.offline-indication {
+	-fx-background-color: #EB4747;
+	-fx-background-radius: 100%;
+	-fx-min-width: 6px;
+	-fx-min-height: 6px;
+}
+
+.online-indication {
+	-fx-background-color: #6FCF97;
+	-fx-background-radius: 100%;
+	-fx-min-width: 6px;
+	-fx-min-height: 6px;
+}
+
+.text-emphase { -fx-font-weight: bold; }
+
+
+/* Center */
+
+.call {
+	-fx-background-color: #252A30;
+	-fx-background-radius: 15px;
+	-fx-border-color: #181E23;
+	-fx-border-width: 3px;
+	-fx-border-radius: 13px;
+	-fx-min-width: 250px;
+}
+
+.call-contact {
+	-fx-background-color: rgba(0,0,0,0.8);
+	-fx-background-radius: 5px;
+	-fx-padding: 3px 8px;
+	-fx-alignment: center;
+}
+
+.call-contact .label {
+	-fx-text-fill: #F6F6F6;
+}
+
+.microphone {
+	-fx-background-color: #4745CD;
+	-fx-background-radius: 100%;
+}
+
+
+/* Buttons */
+
+.button-secondary {
+	-fx-background-color: #252A30;
+}
+
+.primary-button {
+	 -fx-background-color: #EB4747; 
+}
+
+.rounded-button {
+	-fx-background-radius: 100%;
+	-fx-min-width: 35px;
+	-fx-min-height: 35px;
+	-fx-pref-width: 35px;
+	-fx-pref-height: 35px;
+	-fx-max-width: 35px;
+	-fx-max-height: 35px;
+	-fx-content-display: graphic_only;
+	-fx-padding: 0;
+}
+
+.rounded-primary-button {
+	-fx-border-radius: 100%;
+	-fx-background-insets: #45292D;
+}
+
+
+/* Right side */
+
+.right-side {
+	-fx-background-color: #161C21;
+}
+
+
