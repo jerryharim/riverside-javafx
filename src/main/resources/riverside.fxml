@@ -3,6 +3,8 @@
 <?import java.lang.String?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -67,7 +69,35 @@
       </HBox>
    </top>
    <right>
-      <VBox prefHeight="340.0" prefWidth="166.0" styleClass="right-side" BorderPane.alignment="CENTER" />
+      <VBox prefWidth="250.0" styleClass="right-side" BorderPane.alignment="CENTER">
+         <children>
+            <HBox>
+               <children>
+                  <ToggleButton contentDisplay="RIGHT" mnemonicParsing="false" prefWidth="125.0" text="Chat">
+                     <styleClass>
+                        <String fx:value="transparent-button" />
+                        <String fx:value="header-button" />
+                     </styleClass>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="right_side_header" />
+                     </toggleGroup>
+                     <graphic>
+                        <Label contentDisplay="RIGHT" styleClass="chat-number" text="12" />
+                     </graphic>
+                  </ToggleButton>
+                  <ToggleButton layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefWidth="125.0" selected="true" text="Participants" toggleGroup="$right_side_header">
+                     <styleClass>
+                        <String fx:value="header-button" />
+                        <String fx:value="transparent-button" />
+                     </styleClass>
+                  </ToggleButton>
+               </children>
+               <styleClass>
+                  <String fx:value="header-box" />
+                  <String fx:value="medium-horizontal-padding" />
+               </styleClass>
+            </HBox>
+         </children></VBox>
    </right>
    <center>
       <VBox BorderPane.alignment="CENTER">
