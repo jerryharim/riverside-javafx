@@ -10,6 +10,10 @@
 
 /* padding */
 .large-padding { -fx-padding: 20px; }
+.small-padding { -fx-padding: 10px; }
+.medium-padding { -fx-padding: 15px; }
+
+.medium-padding { -fx-padding: 15px; }
 .medium-horizontal-padding { -fx-padding: 0 15px; }
 .medium-vertical-padding { -fx-padding: 15px 0; }
 
@@ -111,6 +115,11 @@
 	 -fx-background-color: #EB4747; 
 }
 
+.primary-button-right-side {
+	 -fx-background-color: #4544C7; 
+	 -fx-text-fill: white;
+}
+
 .rounded-button {
 	-fx-background-radius: 100%;
 	-fx-min-width: 35px;
@@ -129,6 +138,14 @@
 }
 
 .transparent-button {
+	-fx-background-color: transparent;
+}
+
+.button-more {
+	-fx-text-fill: #72777D;
+	-fx-font-weight: bold;
+	-fx-background-insets: 0;
+	-fx-padding: 2px 5px 7px 5px;
 	-fx-background-color: transparent;
 }
 
@@ -165,3 +182,81 @@
 	-fx-font-size: 0.8em;
 }
 
+.right-side-groups {
+	-fx-padding: 15px;
+}
+
+.right-side-group {
+	-fx-background-color: #242A31;
+	-fx-background-radius: 10px;
+	-fx-border-color: #2E363A;
+	-fx-border-width: 1px;
+	-fx-border-radius: 10px;
+}
+
+.right-side-group .group-name {
+	-fx-background-color: #2B3239;
+	-fx-background-radius: 10px 10px 0 0;
+	-fx-padding: 10px;
+}
+
+.right-side-group .label { -fx-text-fill: #72777D; }
+
+.right-side-group .underline {
+	-fx-border-color: #2E363A;
+	-fx-border-width: 0 0 1px 0;
+}
+
+.right-side-group .emphase { 
+	-fx-font-weight: bold;
+	-fx-text-fill: #CED0D1;
+}
+
+.right-side-group .tag { 
+	-fx-background-color: #2B3239;
+	-fx-background-radius: 5px;
+	-fx-padding: 2px 5px;
+}
+
+
+.right-side-group .progress-container {
+	-fx-spacing: 1px;
+}
+
+.right-side-group .progress-control {
+	-fx-background-color: #393D45;
+	-fx-pref-width: 14px;
+	-fx-min-width: 14px;
+	-fx-max-width: 14px;
+	-fx-min-height: 8px;
+	-fx-pref-height: 8px;
+	-fx-max-height: 8px;
+}
+
+.right-side-group .line {
+	-fx-background-color: #1B2127;
+	-fx-min-height: 2px;
+	-fx-pref-height: 2px;
+	-fx-max-height: 2px;
+}
+
+.right-side-group .line-level1 {
+	 -fx-background-color: #6BC894; 
+}
+
+.right-side-group .line-level2 {
+	 -fx-background-color: #E8C34E; 
+}
+
+.waiting-room-box {
+	-fx-background-color: #293037;
+}
+
+.waiting-room-count {
+	-fx-background-color: #363B43;
+	-fx-background-radius: 40%;
+	-fx-padding: 2px 5px;
+	-fx-text-fill: #fff;
+	-fx-alignment: center;
+	-fx-font-size: 0.8em;
+}
