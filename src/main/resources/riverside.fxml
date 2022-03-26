@@ -376,7 +376,7 @@
          <children>
             <HBox styleClass="large-spacing" VBox.vgrow="ALWAYS">
                <children>
-                  <StackPane maxWidth="300.0" minWidth="250.0" HBox.hgrow="ALWAYS">
+                  <StackPane maxWidth="1.7976931348623157E308" minWidth="250.0" HBox.hgrow="ALWAYS">
                      <children>
                         <AnchorPane styleClass="call">
                            <children>
@@ -403,7 +403,7 @@
                         </StackPane>
                      </children>
                   </StackPane>
-                  <StackPane layoutX="10.0" layoutY="10.0" maxWidth="300.0" minWidth="250.0" HBox.hgrow="ALWAYS">
+                  <StackPane layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308" minWidth="250.0" HBox.hgrow="ALWAYS">
                      <children>
                         <AnchorPane styleClass="call">
                            <children>
