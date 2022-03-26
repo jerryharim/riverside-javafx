@@ -18,6 +18,10 @@
 .medium-vertical-padding { -fx-padding: 15px 0; }
 
 
+.root {
+	-fx-background-color: transparent;
+}
+
 .main {
 	-fx-background-color: #1B2127;
 	-fx-background-radius: 15px;
