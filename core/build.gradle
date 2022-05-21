@@ -12,3 +12,6 @@ application {
 	mainClassName = 'riversidefx.Main'
 }
 
+dependencies {
+	implementation project(":component")
+}
