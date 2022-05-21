@@ -1,6 +1,6 @@
-# Riverside JavaFx (Work in progress)
+# Riverside JavaFx
 
-An implementation of the **Riverside** application in JavaFx.
+An implementation of the **Riverside** web application in JavaFx.
 
 ![preview](./preview.png)
 
