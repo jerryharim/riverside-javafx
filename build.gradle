@@ -1,17 +1,12 @@
-plugins {
-    id 'application'
-    id 'org.openjfx.javafxplugin' version '0.0.10'
+allprojects {
+	group "riversidefx"
+	version "0.1"
 }
 
-javafx {
-    version = "16-ea+1"
-    modules = [ 'javafx.controls', 'javafx.fxml', 'javafx.web' ]
-}
+subprojects {
 
-repositories {
-    mavenCentral()
-}
+	repositories {
+		mavenCentral()
+	}
 
-application {
-	mainClassName = 'riversidefx.Main'
 }
