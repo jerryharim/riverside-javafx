@@ -14,13 +14,14 @@ public class Main extends Application {
 
 	@Override
 	public void start(Stage primary_stage) throws Exception {
-		//Pane root = FXMLLoader.load(getClass().getResource("/riverside.fxml"));
-		//Button root = new Button("Bonjour");
+
 		Window root = new Window();
+		root.load_view();
+		root.setCenter( new Button("my button") );
 
 		primary_stage.initStyle(StageStyle.TRANSPARENT);
 		primary_stage.setTitle("Riverside-JavaFx");
-		primary_stage.setScene(new Scene(root.load()));
+		primary_stage.setScene(new Scene( root.getRoot() ));
 		primary_stage.getScene().setFill(Color.TRANSPARENT);
 		primary_stage.show();
 	}

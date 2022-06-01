@@ -7,3 +7,7 @@ bin/
 .classpath
 .project
 .settings/
+component/bin/
+component/build/
+core/build/
+core/bin
