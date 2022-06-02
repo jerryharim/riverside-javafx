@@ -20,10 +20,12 @@ public class Main extends Application {
 
 		Central central = new Central();
 		central.load_view();
-		central.getRoot().setMaxWidth(Double.MAX_VALUE);
-		central.getRoot().setMaxHeight(Double.MAX_VALUE);
+
+		RightSide rightSide = new RightSide();
+		rightSide.load_view();
 
 		root.setCenter( central.getRoot() );
+		root.setRight( rightSide.getRoot() );
 
 		primary_stage.initStyle(StageStyle.TRANSPARENT);
 		primary_stage.setTitle("Riverside-JavaFx");
