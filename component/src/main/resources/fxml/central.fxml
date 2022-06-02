@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox 
+	maxHeight="-Infinity" 
+	maxWidth="-Infinity" 
+	minWidth="-Infinity" 
+	minHeight="-Infinity" 
+	xmlns="http://javafx.com/javafx/8.0.201" 
+	xmlns:fx="http://javafx.com/fxml/1"
+	stylesheets="@style/style.css">
+ <children>
+	<HBox styleClass="large-spacing" VBox.vgrow="ALWAYS">
+	   <children>
+		  <StackPane maxWidth="1.7976931348623157E308" minWidth="250.0" HBox.hgrow="ALWAYS">
+			 <children>
+				<AnchorPane styleClass="call">
+				   <children>
+					  <HBox layoutX="18.0" layoutY="357.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0">
+						 <children>
+							<Label maxWidth="1.7976931348623157E308" text="Nadav" HBox.hgrow="ALWAYS" />
+							<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="5.0" prefWidth="5.0" styleClass="online-indication" />
+						 </children>
+						 <styleClass>
+							<String fx:value="call-contact" />
+							<String fx:value="tiny-spacing" />
+						 </styleClass>
+					  </HBox>
+				   </children>
+				</AnchorPane>
+				<StackPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="50.0" styleClass="microphone">
+				   <children>
+					  <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+						 <image>
+							<Image url="@image/microphone-white.png" />
+						 </image>
+					  </ImageView>
+				   </children>
+				</StackPane>
+			 </children>
+		  </StackPane>
+		  <StackPane layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308" minWidth="250.0" HBox.hgrow="ALWAYS">
+			 <children>
+				<AnchorPane styleClass="call">
+				   <children>
+					  <HBox layoutX="18.0" layoutY="357.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0">
+						 <children>
+							<Label maxWidth="1.7976931348623157E308" text="Pieter" HBox.hgrow="ALWAYS" />
+							<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="5.0" prefWidth="5.0" styleClass="online-indication" />
+						 </children>
+						 <styleClass>
+							<String fx:value="call-contact" />
+							<String fx:value="tiny-spacing" />
+						 </styleClass>
+					  </HBox>
+				   </children>
+				</AnchorPane>
+				<StackPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="50.0" styleClass="microphone">
+				   <children>
+					  <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+						 <image>
+							<Image url="@image/microphone-white.png" />
+						 </image>
+					  </ImageView>
+				   </children>
+				</StackPane>
+			 </children>
+		  </StackPane>
+	   </children>
+	</HBox>
+	<HBox alignment="CENTER">
+	   <children>
+		  <Button mnemonicParsing="false" text="Button">
+			 <graphic>
+				<ImageView fitHeight="14.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true">
+				   <image>
+					  <Image url="@image/settings-white.png" />
+				   </image>
+				</ImageView>
+			 </graphic>
+			 <styleClass>
+				<String fx:value="rounded-button" />
+				<String fx:value="button-secondary" />
+			 </styleClass>
+		  </Button>
+		  <HBox alignment="CENTER" styleClass="small-spacing" HBox.hgrow="ALWAYS">
+			 <children>
+				<Button mnemonicParsing="false" text="Button">
+				   <graphic>
+					  <ImageView fitHeight="14.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true">
+						 <image>
+							<Image url="@image/imac-white.png" />
+						 </image>
+					  </ImageView>
+				   </graphic>
+				   <styleClass>
+					  <String fx:value="rounded-button" />
+					  <String fx:value="button-secondary" />
+				   </styleClass>
+				</Button>
+				<Button mnemonicParsing="false" text="Button">
+				   <graphic>
+					  <ImageView fitHeight="14.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true">
+						 <image>
+							<Image url="@image/microphone-white.png" />
+						 </image>
+					  </ImageView>
+				   </graphic>
+				   <styleClass>
+					  <String fx:value="rounded-button" />
+					  <String fx:value="button-secondary" />
+				   </styleClass>
+				</Button>
+				<Button mnemonicParsing="false" text="Button">
+				   <graphic>
+					  <ImageView fitHeight="14.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true">
+						 <image>
+							<Image url="@image/stop-white.png" />
+						 </image>
+					  </ImageView>
+				   </graphic>
+				   <styleClass>
+					  <String fx:value="rounded-secondary-button" />
+					  <String fx:value="primary-button" />
+					  <String fx:value="rounded-button" />
+				   </styleClass>
+				</Button>
+				<Button mnemonicParsing="false" text="Button">
+				   <graphic>
+					  <ImageView fitHeight="14.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true">
+						 <image>
+							<Image url="@image/medium-volume-white.png" />
+						 </image>
+					  </ImageView>
+				   </graphic>
+				   <styleClass>
+					  <String fx:value="rounded-secondary-button" />
+					  <String fx:value="button-secondary" />
+					  <String fx:value="rounded-button" />
+				   </styleClass>
+				</Button>
+				<Button layoutX="175.0" layoutY="10.0" mnemonicParsing="false" text="Button">
+				   <graphic>
+					  <ImageView fitHeight="14.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true">
+						 <image>
+							<Image url="@image/cam-white.png" />
+						 </image>
+					  </ImageView>
+				   </graphic>
+				   <styleClass>
+					  <String fx:value="button-secondary" />
+					  <String fx:value="rounded-button" />
+				   </styleClass>
+				</Button>
+			 </children>
+		  </HBox>
+		  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Button">
+			 <graphic>
+				<ImageView fitHeight="14.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true" rotate="137.0">
+				   <image>
+					  <Image url="@image/phone-white.png" />
+				   </image>
+				</ImageView>
+			 </graphic>
+			 <styleClass>
+				<String fx:value="rounded-primary-button" />
+				<String fx:value="primary-button" />
+				<String fx:value="rounded-button" />
+			 </styleClass>
+		  </Button>
+	   </children>
+	</HBox>
+ </children>
+ <styleClass>
+	<String fx:value="large-padding" />
+	<String fx:value="huge-spacing" />
+ </styleClass>
+</VBox>

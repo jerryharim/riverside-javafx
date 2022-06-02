@@ -8,7 +8,7 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import riversidefx.atome.Button;
-import riversidefx.window.Window;
+import riversidefx.organism.*;
 
 public class Main extends Application {
 
@@ -17,7 +17,13 @@ public class Main extends Application {
 
 		Window root = new Window();
 		root.load_view();
-		root.setCenter( new Button("my button") );
+
+		Central central = new Central();
+		central.load_view();
+		central.getRoot().setMaxWidth(Double.MAX_VALUE);
+		central.getRoot().setMaxHeight(Double.MAX_VALUE);
+
+		root.setCenter( central.getRoot() );
 
 		primary_stage.initStyle(StageStyle.TRANSPARENT);
 		primary_stage.setTitle("Riverside-JavaFx");
